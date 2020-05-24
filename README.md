@@ -1,10 +1,19 @@
 ## install_util.sh - Install linux command line utility to appropriate installation directory
 
-	This linux/mac utility install any command line utility to appropriate installation directory. 
+	This linux/mac utility install/uninstall any command line utility to appropriate installation directory. 
 
-## Usage
+## Usage 
+
+### Utility Installation 
+
 	$cd script
-	$./install_util.sh <cli utility name >
+	$./install_util <cli utility name >
+
+### Utility Uninstallation 
+
+	$cd script
+	$./uninstall_util <cli utility name >
+
 
 ## Prerequisite
 
